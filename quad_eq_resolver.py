@@ -31,7 +31,7 @@ def solve(a, b, c):
 		x1 = (-1*b + sqrt(delta))/(2*a)
 		x2 = (-1*b - sqrt(delta))/(2*a)
 		print("The solutions for f(x) = 0 are", x1, " and", x2)
-		else:
+	else:
 		# 1 real solutions
 		x0 = sqrt(delta)/(2*a)
 		print("The solution for f(x) = 0 is", x0)
