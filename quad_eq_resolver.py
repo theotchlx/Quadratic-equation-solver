@@ -139,22 +139,24 @@ def main():
 			""")
 			try:
 				opt = int(input("Choose an option: "))
-				if opt == 1:
-					solve(a, b, c)
-				elif opt == 2:
-					sign_table(a, b, c)
-				elif opt == 3:
-					var_table(a, b, c)
-				elif opt == 4:
-					print("Bye.")
-				else :
-					print("Choose a number between 1 and 4")
-					continue
-				choosing = False
-				break
 			except:
 				print("Invalid choice")
 				continue
+
+			if opt == 1:
+				solve(a, b, c)
+			elif opt == 2:
+				sign_table(a, b, c)
+			elif opt == 3:
+				var_table(a, b, c)
+			elif opt == 4:
+				print("Bye.")
+			else :
+				print("Choose a number between 1 and 4")
+				continue
+			choosing = False
+			break
+
 		resolving_equations = False
 		break
 
