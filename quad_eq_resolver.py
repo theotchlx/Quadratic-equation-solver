@@ -127,7 +127,7 @@ def main():
 				print("Coefficients must be real numbers.")
 				continue
 
-			print("f(x) =", sign(a) + str(sqrt(a**2)) + "x²", sign(b) + " " + str(sqrt(b**2)) + "x", sign(c) + " " + str(sqrt(c**2)))
+		print("f(x) =", sign(a) + str(sqrt(a**2)) + "x²", sign(b) + " " + str(sqrt(b**2)) + "x", sign(c) + " " + str(sqrt(c**2)))
 			
 		choosing = True
 		while choosing:
