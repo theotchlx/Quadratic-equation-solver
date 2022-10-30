@@ -135,7 +135,7 @@ def main():
 			1. Solve f(x) = 0
 			2. Get variation table
 			3. Get variation table
-			3. Stop
+			4. Stop
 			""")
 			try:
 				opt = int(input("Choose an option: "))
@@ -145,7 +145,7 @@ def main():
 					sign_table(a, b, c)
 				elif opt == 3:
 					var_table(a, b, c)
-				elif opt == 3:
+				elif opt == 4:
 					print("Bye.")
 				else :
 					print("Choose a number between 1 and 4")
@@ -155,6 +155,8 @@ def main():
 			except:
 				print("Invalid choice")
 				continue
+		resolving_equations = False
+		break
 
 
 # Main :
