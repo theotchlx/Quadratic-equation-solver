@@ -119,6 +119,10 @@ def main():
 				a = float(input("Enter the quadratic coefficient of your equation: "))
 				b = float(input("Enter the linear coefficient of your equation: "))
 				c = float(input("Enter the constant term of your equation: "))
+				
+				if a == 0:
+					print("The quadratic coefficient cannot be null")
+					continue
 
 				cond = False
 				break
