@@ -155,14 +155,13 @@ def main():
 				var_table(a, b, c)
 			elif opt == 4:
 				print("Bye.")
+				resolving_equations = False
 			else :
 				print("Choose a number between 1 and 4")
 				continue
 			choosing = False
 			break
 
-		resolving_equations = False
-		break
 
 
 # Main :
